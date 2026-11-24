@@ -1,0 +1,45 @@
+{
+  "tag": "llama_sft",
+  "benchmarks": {
+    "optibench": {
+      "pass_at_1": 0.5272727272727272,
+      "n_correct": 319,
+      "n": 605,
+      "n_produced_value": 527
+    },
+    "nl4opt": {
+      "pass_at_1": 0.657439446366782,
+      "n_correct": 190,
+      "n": 289,
+      "n_produced_value": 255
+    },
+    "mamo_easy": {
+      "pass_at_1": 0.6134969325153374,
+      "n_correct": 400,
+      "n": 652,
+      "n_produced_value": 589
+    },
+    "mamo_complex": {
+      "pass_at_1": 0.02843601895734597,
+      "n_correct": 6,
+      "n": 211,
+      "n_produced_value": 130
+    },
+    "industryor": {
+      "pass_at_1": 0.16,
+      "n_correct": 16,
+      "n": 100,
+      "n_produced_value": 64
+    },
+    "optmath": {
+      "pass_at_1": 0.012048192771084338,
+      "n_correct": 2,
+      "n": 166,
+      "n_produced_value": 39
+    }
+  },
+  "micro_pass_at_1": 0.4611962432031636,
+  "n_correct": 933,
+  "n_total": 2023,
+  "format_agnostic": true
+}

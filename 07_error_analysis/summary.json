@@ -1,0 +1,51 @@
+{
+  "in-dist ReSocratic-val": {
+    "wrong_value": 236,
+    "correct": 838,
+    "run:AssertionError": 2,
+    "solve:infeasible": 17,
+    "run:NotImplementedError": 5,
+    "parse:SyntaxError": 3,
+    "run:scip-other": 2,
+    "run:timeout": 7,
+    "solve:unbounded": 4,
+    "run:NameError": 1
+  },
+  "OOD 6 benchmark": {
+    "run:NotImplementedError": 60,
+    "correct": 1084,
+    "solve:infeasible": 140,
+    "wrong_value": 598,
+    "run:scip-other": 21,
+    "run:AssertionError": 8,
+    "run:NameError": 55,
+    "run:AttributeError": 2,
+    "run:scip-nonlinear/expr": 7,
+    "run:TypeError": 2,
+    "run:IndexError": 4,
+    "format:no-code-or-segments": 24,
+    "run:timeout": 5,
+    "solve:unbounded": 6,
+    "run:ModuleNotFoundError": 1,
+    "run:other": 2,
+    "parse:SyntaxError": 1,
+    "run:KeyError": 3
+  },
+  "OOD-far LogiOR": {
+    "wrong_value": 34,
+    "run:AssertionError": 5,
+    "run:scip-other": 4,
+    "correct": 9,
+    "run:NameError": 4,
+    "solve:infeasible": 14,
+    "format:no-code-or-segments": 4,
+    "run:TypeError": 2,
+    "run:scip-nonlinear/expr": 3,
+    "run:no-result": 1,
+    "run:NotImplementedError": 5,
+    "solve:unbounded": 2,
+    "run:other": 3,
+    "parse:SyntaxError": 1,
+    "run:timeout": 1
+  }
+}

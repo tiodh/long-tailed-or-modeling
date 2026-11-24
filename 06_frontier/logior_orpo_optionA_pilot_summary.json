@@ -1,0 +1,19 @@
+{
+  "tag": "logior_orpo_optionA_pilot",
+  "bench": "data/benchmarks/logior.json",
+  "adapter": "checkpoints/orpo_optionA_pilot/final",
+  "backend": "hf-bf16",
+  "shots": 0,
+  "n": 92,
+  "accuracy_pct": 8.7,
+  "status_dist": {
+    "wrong_value": 35,
+    "correct": 8,
+    "format_error": 7,
+    "exec_error": 24,
+    "infeasible": 16,
+    "unbounded": 1,
+    "syntax_error": 1
+  },
+  "wall_s": 1990
+}

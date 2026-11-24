@@ -1,0 +1,514 @@
+{
+ "sets": {
+  "_train": {
+   "label": "ReSocratic",
+   "total": 22290
+  },
+  "optibench": {
+   "label": "OptiBench",
+   "total": 605
+  },
+  "nl4opt": {
+   "label": "NL4OPT",
+   "total": 289
+  },
+  "mamo_easy": {
+   "label": "MAMO-E",
+   "total": 652
+  },
+  "mamo_complex": {
+   "label": "MAMO-C",
+   "total": 211
+  },
+  "industryor": {
+   "label": "IndustryOR",
+   "total": 100
+  },
+  "optmath": {
+   "label": "OptMATH",
+   "total": 166
+  }
+ },
+ "classes": {
+  "Job-shop / makespan": {
+   "_train": {
+    "n": 0,
+    "pct": 0.0
+   },
+   "optibench": {
+    "n": 0,
+    "pct": 0.0
+   },
+   "nl4opt": {
+    "n": 0,
+    "pct": 0.0
+   },
+   "mamo_easy": {
+    "n": 0,
+    "pct": 0.0
+   },
+   "mamo_complex": {
+    "n": 0,
+    "pct": 0.0
+   },
+   "industryor": {
+    "n": 0,
+    "pct": 0.0
+   },
+   "optmath": {
+    "n": 43,
+    "pct": 25.9
+   }
+  },
+  "Penjadwalan tenaga kerja": {
+   "_train": {
+    "n": 117,
+    "pct": 0.5
+   },
+   "optibench": {
+    "n": 19,
+    "pct": 3.1
+   },
+   "nl4opt": {
+    "n": 13,
+    "pct": 4.5
+   },
+   "mamo_easy": {
+    "n": 34,
+    "pct": 5.2
+   },
+   "mamo_complex": {
+    "n": 3,
+    "pct": 1.4
+   },
+   "industryor": {
+    "n": 6,
+    "pct": 6.0
+   },
+   "optmath": {
+    "n": 4,
+    "pct": 2.4
+   }
+  },
+  "Transportasi / distribusi": {
+   "_train": {
+    "n": 1311,
+    "pct": 5.9
+   },
+   "optibench": {
+    "n": 58,
+    "pct": 9.6
+   },
+   "nl4opt": {
+    "n": 45,
+    "pct": 15.6
+   },
+   "mamo_easy": {
+    "n": 67,
+    "pct": 10.3
+   },
+   "mamo_complex": {
+    "n": 101,
+    "pct": 47.9
+   },
+   "industryor": {
+    "n": 19,
+    "pct": 19.0
+   },
+   "optmath": {
+    "n": 19,
+    "pct": 11.4
+   }
+  },
+  "Lokasi fasilitas": {
+   "_train": {
+    "n": 10,
+    "pct": 0.0
+   },
+   "optibench": {
+    "n": 0,
+    "pct": 0.0
+   },
+   "nl4opt": {
+    "n": 0,
+    "pct": 0.0
+   },
+   "mamo_easy": {
+    "n": 0,
+    "pct": 0.0
+   },
+   "mamo_complex": {
+    "n": 0,
+    "pct": 0.0
+   },
+   "industryor": {
+    "n": 0,
+    "pct": 0.0
+   },
+   "optmath": {
+    "n": 1,
+    "pct": 0.6
+   }
+  },
+  "Diet / blending": {
+   "_train": {
+    "n": 471,
+    "pct": 2.1
+   },
+   "optibench": {
+    "n": 32,
+    "pct": 5.3
+   },
+   "nl4opt": {
+    "n": 25,
+    "pct": 8.7
+   },
+   "mamo_easy": {
+    "n": 1,
+    "pct": 0.2
+   },
+   "mamo_complex": {
+    "n": 45,
+    "pct": 21.3
+   },
+   "industryor": {
+    "n": 4,
+    "pct": 4.0
+   },
+   "optmath": {
+    "n": 0,
+    "pct": 0.0
+   }
+  },
+  "Knapsack / seleksi": {
+   "_train": {
+    "n": 0,
+    "pct": 0.0
+   },
+   "optibench": {
+    "n": 2,
+    "pct": 0.3
+   },
+   "nl4opt": {
+    "n": 0,
+    "pct": 0.0
+   },
+   "mamo_easy": {
+    "n": 0,
+    "pct": 0.0
+   },
+   "mamo_complex": {
+    "n": 0,
+    "pct": 0.0
+   },
+   "industryor": {
+    "n": 0,
+    "pct": 0.0
+   },
+   "optmath": {
+    "n": 0,
+    "pct": 0.0
+   }
+  },
+  "Bin packing / cutting stock": {
+   "_train": {
+    "n": 0,
+    "pct": 0.0
+   },
+   "optibench": {
+    "n": 0,
+    "pct": 0.0
+   },
+   "nl4opt": {
+    "n": 0,
+    "pct": 0.0
+   },
+   "mamo_easy": {
+    "n": 0,
+    "pct": 0.0
+   },
+   "mamo_complex": {
+    "n": 0,
+    "pct": 0.0
+   },
+   "industryor": {
+    "n": 1,
+    "pct": 1.0
+   },
+   "optmath": {
+    "n": 0,
+    "pct": 0.0
+   }
+  },
+  "Portofolio / investasi": {
+   "_train": {
+    "n": 1513,
+    "pct": 6.8
+   },
+   "optibench": {
+    "n": 52,
+    "pct": 8.6
+   },
+   "nl4opt": {
+    "n": 8,
+    "pct": 2.8
+   },
+   "mamo_easy": {
+    "n": 142,
+    "pct": 21.8
+   },
+   "mamo_complex": {
+    "n": 2,
+    "pct": 0.9
+   },
+   "industryor": {
+    "n": 7,
+    "pct": 7.0
+   },
+   "optmath": {
+    "n": 0,
+    "pct": 0.0
+   }
+  },
+  "Inventori / lot sizing": {
+   "_train": {
+    "n": 24,
+    "pct": 0.1
+   },
+   "optibench": {
+    "n": 5,
+    "pct": 0.8
+   },
+   "nl4opt": {
+    "n": 1,
+    "pct": 0.3
+   },
+   "mamo_easy": {
+    "n": 10,
+    "pct": 1.5
+   },
+   "mamo_complex": {
+    "n": 3,
+    "pct": 1.4
+   },
+   "industryor": {
+    "n": 2,
+    "pct": 2.0
+   },
+   "optmath": {
+    "n": 12,
+    "pct": 7.2
+   }
+  },
+  "Aliran jaringan": {
+   "_train": {
+    "n": 0,
+    "pct": 0.0
+   },
+   "optibench": {
+    "n": 0,
+    "pct": 0.0
+   },
+   "nl4opt": {
+    "n": 0,
+    "pct": 0.0
+   },
+   "mamo_easy": {
+    "n": 0,
+    "pct": 0.0
+   },
+   "mamo_complex": {
+    "n": 0,
+    "pct": 0.0
+   },
+   "industryor": {
+    "n": 0,
+    "pct": 0.0
+   },
+   "optmath": {
+    "n": 0,
+    "pct": 0.0
+   }
+  },
+  "Penugasan": {
+   "_train": {
+    "n": 184,
+    "pct": 0.8
+   },
+   "optibench": {
+    "n": 10,
+    "pct": 1.7
+   },
+   "nl4opt": {
+    "n": 0,
+    "pct": 0.0
+   },
+   "mamo_easy": {
+    "n": 5,
+    "pct": 0.8
+   },
+   "mamo_complex": {
+    "n": 0,
+    "pct": 0.0
+   },
+   "industryor": {
+    "n": 0,
+    "pct": 0.0
+   },
+   "optmath": {
+    "n": 6,
+    "pct": 3.6
+   }
+  },
+  "Cakupan (set covering)": {
+   "_train": {
+    "n": 31,
+    "pct": 0.1
+   },
+   "optibench": {
+    "n": 1,
+    "pct": 0.2
+   },
+   "nl4opt": {
+    "n": 0,
+    "pct": 0.0
+   },
+   "mamo_easy": {
+    "n": 0,
+    "pct": 0.0
+   },
+   "mamo_complex": {
+    "n": 0,
+    "pct": 0.0
+   },
+   "industryor": {
+    "n": 0,
+    "pct": 0.0
+   },
+   "optmath": {
+    "n": 8,
+    "pct": 4.8
+   }
+  },
+  "Desain geometris": {
+   "_train": {
+    "n": 1681,
+    "pct": 7.5
+   },
+   "optibench": {
+    "n": 63,
+    "pct": 10.4
+   },
+   "nl4opt": {
+    "n": 3,
+    "pct": 1.0
+   },
+   "mamo_easy": {
+    "n": 1,
+    "pct": 0.2
+   },
+   "mamo_complex": {
+    "n": 1,
+    "pct": 0.5
+   },
+   "industryor": {
+    "n": 2,
+    "pct": 2.0
+   },
+   "optmath": {
+    "n": 0,
+    "pct": 0.0
+   }
+  },
+  "Perencanaan produksi": {
+   "_train": {
+    "n": 12934,
+    "pct": 58.0
+   },
+   "optibench": {
+    "n": 120,
+    "pct": 19.8
+   },
+   "nl4opt": {
+    "n": 36,
+    "pct": 12.5
+   },
+   "mamo_easy": {
+    "n": 42,
+    "pct": 6.4
+   },
+   "mamo_complex": {
+    "n": 3,
+    "pct": 1.4
+   },
+   "industryor": {
+    "n": 29,
+    "pct": 29.0
+   },
+   "optmath": {
+    "n": 10,
+    "pct": 6.0
+   }
+  },
+  "Alokasi sumber daya": {
+   "_train": {
+    "n": 2808,
+    "pct": 12.6
+   },
+   "optibench": {
+    "n": 38,
+    "pct": 6.3
+   },
+   "nl4opt": {
+    "n": 7,
+    "pct": 2.4
+   },
+   "mamo_easy": {
+    "n": 314,
+    "pct": 48.2
+   },
+   "mamo_complex": {
+    "n": 0,
+    "pct": 0.0
+   },
+   "industryor": {
+    "n": 6,
+    "pct": 6.0
+   },
+   "optmath": {
+    "n": 13,
+    "pct": 7.8
+   }
+  },
+  "Tak terklasifikasi": {
+   "_train": {
+    "n": 1206,
+    "pct": 5.4
+   },
+   "optibench": {
+    "n": 205,
+    "pct": 33.9
+   },
+   "nl4opt": {
+    "n": 151,
+    "pct": 52.2
+   },
+   "mamo_easy": {
+    "n": 36,
+    "pct": 5.5
+   },
+   "mamo_complex": {
+    "n": 53,
+    "pct": 25.1
+   },
+   "industryor": {
+    "n": 24,
+    "pct": 24.0
+   },
+   "optmath": {
+    "n": 50,
+    "pct": 30.1
+   }
+  }
+ }
+}

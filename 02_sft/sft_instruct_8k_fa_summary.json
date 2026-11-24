@@ -1,0 +1,45 @@
+{
+  "tag": "sft_instruct_8k",
+  "benchmarks": {
+    "optibench": {
+      "pass_at_1": 0.6016528925619835,
+      "n_correct": 364,
+      "n": 605,
+      "n_produced_value": 542
+    },
+    "nl4opt": {
+      "pass_at_1": 0.7681660899653979,
+      "n_correct": 222,
+      "n": 289,
+      "n_produced_value": 259
+    },
+    "mamo_easy": {
+      "pass_at_1": 0.6625766871165644,
+      "n_correct": 432,
+      "n": 652,
+      "n_produced_value": 611
+    },
+    "mamo_complex": {
+      "pass_at_1": 0.1943127962085308,
+      "n_correct": 41,
+      "n": 211,
+      "n_produced_value": 156
+    },
+    "industryor": {
+      "pass_at_1": 0.2,
+      "n_correct": 20,
+      "n": 100,
+      "n_produced_value": 72
+    },
+    "optmath": {
+      "pass_at_1": 0.030120481927710843,
+      "n_correct": 5,
+      "n": 166,
+      "n_produced_value": 42
+    }
+  },
+  "micro_pass_at_1": 0.5358378645575878,
+  "n_correct": 1084,
+  "n_total": 2023,
+  "format_agnostic": true
+}

@@ -1,0 +1,19 @@
+{
+  "tag": "logior_otpo_reso",
+  "bench": "data/benchmarks/logior.json",
+  "adapter": "checkpoints/otpo_ot_wnll0_reso/final",
+  "backend": "hf-bf16",
+  "shots": 0,
+  "n": 92,
+  "accuracy_pct": 8.7,
+  "status_dist": {
+    "wrong_value": 42,
+    "format_error": 7,
+    "correct": 8,
+    "exec_error": 21,
+    "infeasible": 11,
+    "syntax_error": 1,
+    "unbounded": 2
+  },
+  "wall_s": 2012
+}

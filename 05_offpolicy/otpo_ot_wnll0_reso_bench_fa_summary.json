@@ -1,0 +1,45 @@
+{
+  "tag": "otpo_ot_wnll0_reso_bench",
+  "benchmarks": {
+    "optibench": {
+      "pass_at_1": 0.5933884297520661,
+      "n_correct": 359,
+      "n": 605,
+      "n_produced_value": 544
+    },
+    "nl4opt": {
+      "pass_at_1": 0.7335640138408305,
+      "n_correct": 212,
+      "n": 289,
+      "n_produced_value": 259
+    },
+    "mamo_easy": {
+      "pass_at_1": 0.6687116564417178,
+      "n_correct": 436,
+      "n": 652,
+      "n_produced_value": 589
+    },
+    "mamo_complex": {
+      "pass_at_1": 0.15165876777251186,
+      "n_correct": 32,
+      "n": 211,
+      "n_produced_value": 160
+    },
+    "industryor": {
+      "pass_at_1": 0.19,
+      "n_correct": 19,
+      "n": 100,
+      "n_produced_value": 67
+    },
+    "optmath": {
+      "pass_at_1": 0.05421686746987952,
+      "n_correct": 9,
+      "n": 166,
+      "n_produced_value": 46
+    }
+  },
+  "micro_pass_at_1": 0.52743450321305,
+  "n_correct": 1067,
+  "n_total": 2023,
+  "format_agnostic": true
+}

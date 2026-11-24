@@ -1,0 +1,45 @@
+{
+  "tag": "base_instruct",
+  "benchmarks": {
+    "optibench": {
+      "pass_at_1": 0.21818181818181817,
+      "n_correct": 132,
+      "n": 605,
+      "n_produced_value": 237
+    },
+    "nl4opt": {
+      "pass_at_1": 0.328719723183391,
+      "n_correct": 95,
+      "n": 289,
+      "n_produced_value": 155
+    },
+    "mamo_easy": {
+      "pass_at_1": 0.745398773006135,
+      "n_correct": 486,
+      "n": 652,
+      "n_produced_value": 567
+    },
+    "mamo_complex": {
+      "pass_at_1": 0.17535545023696683,
+      "n_correct": 37,
+      "n": 211,
+      "n_produced_value": 91
+    },
+    "industryor": {
+      "pass_at_1": 0.19,
+      "n_correct": 19,
+      "n": 100,
+      "n_produced_value": 34
+    },
+    "optmath": {
+      "pass_at_1": 0.024096385542168676,
+      "n_correct": 4,
+      "n": 166,
+      "n_produced_value": 12
+    }
+  },
+  "micro_pass_at_1": 0.3821057834898665,
+  "n_correct": 773,
+  "n_total": 2023,
+  "format_agnostic": true
+}

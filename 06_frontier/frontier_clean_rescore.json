@@ -1,0 +1,122 @@
+{
+  "SFT": {
+    "clean_micro": 66.33,
+    "clean_correct": 1062,
+    "clean_n": 1601,
+    "contam_micro": 4.98,
+    "contam_correct": 21,
+    "contam_n": 422,
+    "per_bench_clean": {
+      "optibench": [
+        355,
+        481,
+        73.8
+      ],
+      "nl4opt": [
+        220,
+        248,
+        88.71
+      ],
+      "mamo_easy": [
+        424,
+        530,
+        80.0
+      ],
+      "mamo_complex": [
+        39,
+        136,
+        28.68
+      ],
+      "industryor": [
+        20,
+        81,
+        24.69
+      ],
+      "optmath": [
+        4,
+        125,
+        3.2
+      ]
+    }
+  },
+  "OTPO-orig": {
+    "clean_micro": 67.96,
+    "clean_correct": 1088,
+    "clean_n": 1601,
+    "contam_micro": 54.27,
+    "contam_correct": 229,
+    "contam_n": 422,
+    "per_bench_clean": {
+      "optibench": [
+        339,
+        481,
+        70.48
+      ],
+      "nl4opt": [
+        225,
+        248,
+        90.73
+      ],
+      "mamo_easy": [
+        466,
+        530,
+        87.92
+      ],
+      "mamo_complex": [
+        40,
+        136,
+        29.41
+      ],
+      "industryor": [
+        15,
+        81,
+        18.52
+      ],
+      "optmath": [
+        3,
+        125,
+        2.4
+      ]
+    }
+  },
+  "gpt-4o": {
+    "clean_micro": 65.92,
+    "clean_correct": 1054,
+    "clean_n": 1599,
+    "contam_micro": 54.98,
+    "contam_correct": 232,
+    "contam_n": 422,
+    "per_bench_clean": {
+      "optibench": [
+        280,
+        480,
+        58.33
+      ],
+      "nl4opt": [
+        211,
+        247,
+        85.43
+      ],
+      "mamo_easy": [
+        461,
+        530,
+        86.98
+      ],
+      "mamo_complex": [
+        50,
+        136,
+        36.76
+      ],
+      "industryor": [
+        31,
+        81,
+        38.27
+      ],
+      "optmath": [
+        21,
+        125,
+        16.8
+      ]
+    }
+  }
+}

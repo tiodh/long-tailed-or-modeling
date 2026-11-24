@@ -1,0 +1,18 @@
+{
+  "tag": "logior_sft",
+  "bench": "data/benchmarks/logior.json",
+  "adapter": "checkpoints/sft_instruct/final",
+  "backend": "hf-bf16",
+  "n": 92,
+  "accuracy_pct": 9.78,
+  "status_dist": {
+    "wrong_value": 34,
+    "exec_error": 28,
+    "correct": 9,
+    "infeasible": 14,
+    "format_error": 4,
+    "unbounded": 2,
+    "syntax_error": 1
+  },
+  "wall_s": 6710
+}

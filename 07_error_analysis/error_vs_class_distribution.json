@@ -1,0 +1,158 @@
+{
+ "tag": "sft_instruct_8k",
+ "train_total": 22290,
+ "rows": [
+  {
+   "class": "Production planning",
+   "train_n": 12934,
+   "train_pct": 58.03,
+   "bench_n": 240,
+   "acc": 54.6,
+   "wrong": 34.2,
+   "fail": 11.2
+  },
+  {
+   "class": "Resource allocation",
+   "train_n": 2808,
+   "train_pct": 12.6,
+   "bench_n": 378,
+   "acc": 60.8,
+   "wrong": 29.9,
+   "fail": 9.3
+  },
+  {
+   "class": "Geometric design",
+   "train_n": 1681,
+   "train_pct": 7.54,
+   "bench_n": 70,
+   "acc": 67.1,
+   "wrong": 22.9,
+   "fail": 10.0
+  },
+  {
+   "class": "Portfolio",
+   "train_n": 1513,
+   "train_pct": 6.79,
+   "bench_n": 211,
+   "acc": 59.7,
+   "wrong": 32.7,
+   "fail": 7.6
+  },
+  {
+   "class": "Transportation",
+   "train_n": 1311,
+   "train_pct": 5.88,
+   "bench_n": 309,
+   "acc": 47.6,
+   "wrong": 29.4,
+   "fail": 23.0
+  },
+  {
+   "class": "Unclassified",
+   "train_n": 1206,
+   "train_pct": 5.41,
+   "bench_n": 519,
+   "acc": 52.8,
+   "wrong": 26.6,
+   "fail": 20.6
+  },
+  {
+   "class": "Diet / blending",
+   "train_n": 471,
+   "train_pct": 2.11,
+   "bench_n": 107,
+   "acc": 59.8,
+   "wrong": 33.6,
+   "fail": 6.5
+  },
+  {
+   "class": "Assignment",
+   "train_n": 184,
+   "train_pct": 0.83,
+   "bench_n": 21,
+   "acc": 42.9,
+   "wrong": 33.3,
+   "fail": 23.8
+  },
+  {
+   "class": "Workforce scheduling",
+   "train_n": 117,
+   "train_pct": 0.52,
+   "bench_n": 79,
+   "acc": 54.4,
+   "wrong": 29.1,
+   "fail": 16.5
+  },
+  {
+   "class": "Set covering",
+   "train_n": 31,
+   "train_pct": 0.14,
+   "bench_n": 9,
+   "acc": 22.2,
+   "wrong": 22.2,
+   "fail": 55.6
+  },
+  {
+   "class": "Inventory / lot sizing",
+   "train_n": 24,
+   "train_pct": 0.11,
+   "bench_n": 33,
+   "acc": 27.3,
+   "wrong": 24.2,
+   "fail": 48.5
+  },
+  {
+   "class": "Facility location",
+   "train_n": 10,
+   "train_pct": 0.04,
+   "bench_n": 1,
+   "acc": 0.0,
+   "wrong": 100.0,
+   "fail": 0.0
+  },
+  {
+   "class": "Knapsack",
+   "train_n": 0,
+   "train_pct": 0.0,
+   "bench_n": 2,
+   "acc": 100.0,
+   "wrong": 0.0,
+   "fail": 0.0
+  },
+  {
+   "class": "Bin packing",
+   "train_n": 0,
+   "train_pct": 0.0,
+   "bench_n": 1,
+   "acc": 0.0,
+   "wrong": 100.0,
+   "fail": 0.0
+  },
+  {
+   "class": "Job-shop scheduling",
+   "train_n": 0,
+   "train_pct": 0.0,
+   "bench_n": 43,
+   "acc": 0.0,
+   "wrong": 25.6,
+   "fail": 74.4
+  }
+ ],
+ "spearman_n20": {
+  "acc": 0.77,
+  "wrong": 0.42,
+  "fail": -0.66
+ },
+ "classes_in_corr": [
+  "Production planning",
+  "Resource allocation",
+  "Geometric design",
+  "Portfolio",
+  "Transportation",
+  "Diet / blending",
+  "Assignment",
+  "Workforce scheduling",
+  "Inventory / lot sizing",
+  "Job-shop scheduling"
+ ]
+}

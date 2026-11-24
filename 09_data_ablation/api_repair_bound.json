@@ -1,0 +1,44 @@
+{
+ "arm0": {
+  "base": 1255,
+  "touched": 13,
+  "recovered": 4,
+  "base_pct": 62.04,
+  "repaired_pct": 62.23,
+  "recovered_by_bench": {
+   "mamo_easy": 3,
+   "mamo_complex": 1
+  }
+ },
+ "arm1": {
+  "base": 1167,
+  "touched": 6,
+  "recovered": 0,
+  "base_pct": 57.69,
+  "repaired_pct": 57.69,
+  "recovered_by_bench": {}
+ },
+ "arm2": {
+  "base": 1189,
+  "touched": 61,
+  "recovered": 31,
+  "base_pct": 58.77,
+  "repaired_pct": 60.31,
+  "recovered_by_bench": {
+   "mamo_easy": 30,
+   "optmath": 1
+  }
+ },
+ "arm3": {
+  "base": 1232,
+  "touched": 18,
+  "recovered": 4,
+  "base_pct": 60.9,
+  "repaired_pct": 61.1,
+  "recovered_by_bench": {
+   "mamo_complex": 1,
+   "industryor": 2,
+   "optmath": 1
+  }
+ }
+}

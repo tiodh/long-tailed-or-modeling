@@ -1,0 +1,14 @@
+{
+  "tag": "logior_smoke",
+  "bench": "data/benchmarks/logior.json",
+  "adapter": "checkpoints/sft_instruct/final",
+  "backend": "hf-bf16",
+  "n": 4,
+  "accuracy_pct": 0.0,
+  "status_dist": {
+    "format_error": 2,
+    "wrong_value": 1,
+    "exec_error": 1
+  },
+  "wall_s": 217
+}

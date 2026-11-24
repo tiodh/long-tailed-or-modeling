@@ -1,0 +1,45 @@
+{
+  "tag": "abl_arm1_bench",
+  "benchmarks": {
+    "optibench": {
+      "pass_at_1": 0.6033057851239669,
+      "n_correct": 365,
+      "n": 605,
+      "n_produced_value": 536
+    },
+    "nl4opt": {
+      "pass_at_1": 0.754325259515571,
+      "n_correct": 218,
+      "n": 289,
+      "n_produced_value": 257
+    },
+    "mamo_easy": {
+      "pass_at_1": 0.8297546012269938,
+      "n_correct": 541,
+      "n": 652,
+      "n_produced_value": 635
+    },
+    "mamo_complex": {
+      "pass_at_1": 0.08056872037914692,
+      "n_correct": 17,
+      "n": 211,
+      "n_produced_value": 142
+    },
+    "industryor": {
+      "pass_at_1": 0.2,
+      "n_correct": 20,
+      "n": 100,
+      "n_produced_value": 67
+    },
+    "optmath": {
+      "pass_at_1": 0.03614457831325301,
+      "n_correct": 6,
+      "n": 166,
+      "n_produced_value": 54
+    }
+  },
+  "micro_pass_at_1": 0.5768660405338606,
+  "n_correct": 1167,
+  "n_total": 2023,
+  "format_agnostic": true
+}

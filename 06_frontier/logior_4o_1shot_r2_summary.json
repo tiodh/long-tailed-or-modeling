@@ -1,0 +1,17 @@
+{
+  "tag": "logior_4o_1shot_r2",
+  "bench": "data/benchmarks/logior.json",
+  "model": "gpt-4o",
+  "backend": "openai",
+  "shots": 1,
+  "n": 92,
+  "accuracy_pct": 46.74,
+  "status_dist": {
+    "correct": 43,
+    "exec_error": 23,
+    "wrong_value": 24,
+    "unbounded": 1,
+    "infeasible": 1
+  },
+  "wall_s": 244
+}

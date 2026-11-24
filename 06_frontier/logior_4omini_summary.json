@@ -1,0 +1,15 @@
+{
+  "tag": "logior_4omini",
+  "bench": "data/benchmarks/logior.json",
+  "model": "gpt-4o-mini",
+  "backend": "openai",
+  "n": 92,
+  "accuracy_pct": 19.57,
+  "status_dist": {
+    "exec_error": 49,
+    "correct": 18,
+    "infeasible": 1,
+    "wrong_value": 24
+  },
+  "wall_s": 140
+}

@@ -1,0 +1,148 @@
+{
+ "profile": [
+  {
+   "class": "Unclassified",
+   "n": 519,
+   "words": 154.53,
+   "bound": 1.61,
+   "relational": 0.4,
+   "logical": 0.86,
+   "indexed": 2.87,
+   "hi_rel_log_pct": 11.2,
+   "wrong_sft": 33.5,
+   "wrong_gpt4o": 20.5
+  },
+  {
+   "class": "Resource allocation",
+   "n": 378,
+   "words": 186.44,
+   "bound": 3.06,
+   "relational": 0.75,
+   "logical": 0.22,
+   "indexed": 2.54,
+   "hi_rel_log_pct": 6.6,
+   "wrong_sft": 32.9,
+   "wrong_gpt4o": 14.9
+  },
+  {
+   "class": "Transportation",
+   "n": 309,
+   "words": 277.97,
+   "bound": 2.16,
+   "relational": 0.31,
+   "logical": 0.44,
+   "indexed": 3.77,
+   "hi_rel_log_pct": 10.4,
+   "wrong_sft": 38.2,
+   "wrong_gpt4o": 27.0
+  },
+  {
+   "class": "Production planning",
+   "n": 240,
+   "words": 162.16,
+   "bound": 1.75,
+   "relational": 0.4,
+   "logical": 0.36,
+   "indexed": 4.47,
+   "hi_rel_log_pct": 3.3,
+   "wrong_sft": 38.5,
+   "wrong_gpt4o": 23.2
+  },
+  {
+   "class": "Portfolio",
+   "n": 211,
+   "words": 159.26,
+   "bound": 2.66,
+   "relational": 1.0,
+   "logical": 0.17,
+   "indexed": 2.56,
+   "hi_rel_log_pct": 12.3,
+   "wrong_sft": 35.4,
+   "wrong_gpt4o": 21.0
+  },
+  {
+   "class": "Diet / blending",
+   "n": 107,
+   "words": 166.07,
+   "bound": 1.49,
+   "relational": 0.32,
+   "logical": 0.21,
+   "indexed": 3.48,
+   "hi_rel_log_pct": 5.6,
+   "wrong_sft": 36.0,
+   "wrong_gpt4o": 45.5
+  },
+  {
+   "class": "Workforce scheduling",
+   "n": 79,
+   "words": 146.16,
+   "bound": 2.06,
+   "relational": 0.38,
+   "logical": 0.38,
+   "indexed": 2.96,
+   "hi_rel_log_pct": 2.5,
+   "wrong_sft": 34.8,
+   "wrong_gpt4o": 18.3
+  },
+  {
+   "class": "Geometric design",
+   "n": 70,
+   "words": 61.06,
+   "bound": 0.51,
+   "relational": 0.1,
+   "logical": 0.13,
+   "indexed": 0.89,
+   "hi_rel_log_pct": 1.4,
+   "wrong_sft": 25.4,
+   "wrong_gpt4o": 20.0
+  },
+  {
+   "class": "Job-shop scheduling",
+   "n": 43,
+   "words": 381.28,
+   "bound": 3.95,
+   "relational": 0.0,
+   "logical": 2.23,
+   "indexed": 6.4,
+   "hi_rel_log_pct": 41.9,
+   "wrong_sft": 100.0,
+   "wrong_gpt4o": 83.3
+  },
+  {
+   "class": "Inventory / lot sizing",
+   "n": 33,
+   "words": 266.94,
+   "bound": 2.09,
+   "relational": 0.45,
+   "logical": 1.33,
+   "indexed": 6.88,
+   "hi_rel_log_pct": 33.3,
+   "wrong_sft": 47.1,
+   "wrong_gpt4o": 37.0
+  },
+  {
+   "class": "Assignment",
+   "n": 21,
+   "words": 261.9,
+   "bound": 2.29,
+   "relational": 0.14,
+   "logical": 1.1,
+   "indexed": 7.43,
+   "hi_rel_log_pct": 14.3,
+   "wrong_sft": 43.8,
+   "wrong_gpt4o": 33.3
+  }
+ ],
+ "class_spearman": {
+  "sft": 0.69,
+  "gpt4o": 0.36
+ },
+ "class_stratified_sft": {
+  "MH_OR": 1.43,
+  "p": 0.0735
+ },
+ "class_stratified_gpt4o": {
+  "MH_OR": 1.56,
+  "p": 0.0243
+ }
+}

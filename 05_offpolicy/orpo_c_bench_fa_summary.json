@@ -1,0 +1,45 @@
+{
+  "tag": "orpo_c_bench",
+  "benchmarks": {
+    "optibench": {
+      "pass_at_1": 0.6033057851239669,
+      "n_correct": 365,
+      "n": 605,
+      "n_produced_value": 545
+    },
+    "nl4opt": {
+      "pass_at_1": 0.7370242214532872,
+      "n_correct": 213,
+      "n": 289,
+      "n_produced_value": 257
+    },
+    "mamo_easy": {
+      "pass_at_1": 0.5843558282208589,
+      "n_correct": 381,
+      "n": 652,
+      "n_produced_value": 507
+    },
+    "mamo_complex": {
+      "pass_at_1": 0.2132701421800948,
+      "n_correct": 45,
+      "n": 211,
+      "n_produced_value": 160
+    },
+    "industryor": {
+      "pass_at_1": 0.18,
+      "n_correct": 18,
+      "n": 100,
+      "n_produced_value": 65
+    },
+    "optmath": {
+      "pass_at_1": 0.04819277108433735,
+      "n_correct": 8,
+      "n": 166,
+      "n_produced_value": 46
+    }
+  },
+  "micro_pass_at_1": 0.50914483440435,
+  "n_correct": 1030,
+  "n_total": 2023,
+  "format_agnostic": true
+}

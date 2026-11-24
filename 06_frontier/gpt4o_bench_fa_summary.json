@@ -1,0 +1,45 @@
+{
+  "tag": "gpt4o_bench",
+  "benchmarks": {
+    "optibench": {
+      "pass_at_1": 0.5711920529801324,
+      "n_correct": 345,
+      "n": 604,
+      "n_produced_value": 421
+    },
+    "nl4opt": {
+      "pass_at_1": 0.8125,
+      "n_correct": 234,
+      "n": 288,
+      "n_produced_value": 257
+    },
+    "mamo_easy": {
+      "pass_at_1": 0.848159509202454,
+      "n_correct": 553,
+      "n": 652,
+      "n_produced_value": 646
+    },
+    "mamo_complex": {
+      "pass_at_1": 0.38388625592417064,
+      "n_correct": 81,
+      "n": 211,
+      "n_produced_value": 202
+    },
+    "industryor": {
+      "pass_at_1": 0.44,
+      "n_correct": 44,
+      "n": 100,
+      "n_produced_value": 80
+    },
+    "optmath": {
+      "pass_at_1": 0.1746987951807229,
+      "n_correct": 29,
+      "n": 166,
+      "n_produced_value": 77
+    }
+  },
+  "micro_pass_at_1": 0.636318654131618,
+  "n_correct": 1286,
+  "n_total": 2021,
+  "format_agnostic": true
+}
